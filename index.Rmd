@@ -1,0 +1,358 @@
+---
+title: "Module 5: Synthesis Over Summary"
+subtitle: "EME6665: Synthesis, Analysis, & Argumentation"
+author: "Dr. Bret Staudt Willet"
+date: "March 6, 2023"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    seal: true
+    css: [default, 'custom.css', 'custom-fonts.css']
+    nature:
+      titleSlideClass: [left, bottom]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+usethis::use_git_ignore(c("*.csv", "*.rds"))
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+library(tidyverse)
+library(xaringan)
+library(fontawesome)
+```
+
+class: inverse, center, middle
+
+# `r fa("fas fa-images", fill = "#fff")`
+
+**View the slides:** 
+
+[bretsw.com/eme6665-ss23-module5](https://bretsw.com/eme6665-ss23-module5)
+
+---
+
+class: inverse, center, middle
+
+# `r fa("comments", fill = "#fff")` <br><br> Module 4 Discussion <br> Themes
+
+---
+
+# `r fa("comments", fill = "#fff")` Craft an Argument
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/rain-window.jpg")
+```
+
+--
+
+Your lit review should establish that your study should be done:
+
+--
+
+- Why is your study necessary?
+
+--
+
+- How should you go about your investigation?
+
+---
+
+# `r fa("comments", fill = "#fff")` IFF
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/necessary-sufficient.jpg")
+```
+
+Your lit review should include only what *must* be there:
+
+--
+
+- "If-and-Only-If: Necessary and sufficient"
+
+--
+
+- What are the "load-bearing" walls in your lit review?
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-book-open", fill = "#fff")` <br><br> Module 5:<br>Synthesis Over Summary
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-book-open", fill = "#fff")` Synthesis:
+
+<div class="definition">
+<p>
+the composition or combination of parts or elements so as to form a whole
+</p>
+</div>
+<br>
+<div class="caption">
+<p>
+Source: <a href="https://www.merriam-webster.com/dictionary/synthesis" target="_blank">Merriam-Webster Dictionary</a>
+</p>
+</div>
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-book-open", fill = "#fff")` Synthesis:
+
+<div class="definition">
+<p>
+the dialectic combination of thesis and antithesis into a higher stage of truth
+</p>
+</div>
+<br>
+<div class="caption">
+<p>
+Source: <a href="https://www.merriam-webster.com/dictionary/synthesis" target="_blank">Merriam-Webster Dictionary</a>
+</p>
+</div>
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-book-open", fill = "#fff")` Synthesis:
+
+<div class="definition">
+<p>
+the combining of often diverse conceptions into a coherent whole
+</p>
+</div>
+<br>
+<div class="caption">
+<p>
+Source: <a href="https://www.merriam-webster.com/dictionary/synthesis" target="_blank">Merriam-Webster Dictionary</a>
+</p>
+</div>
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Module 5 Readings
+
+```{r, out.width = "540px", echo = FALSE, fig.align = "center"}
+include_graphics("img/thinking.jpg")
+```
+
+### Galvan & Galvan, 2017, Chapter 9
+*Synthesizing Trends and Patterns: Preparing to Write*
+
+<hr>
+
+--
+
+**✓ Guideline 1:** Consider Your Purpose and Voice before Beginning to Write
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Module 5 Readings
+
+```{r, out.width = "540px", echo = FALSE, fig.align = "center"}
+include_graphics("img/outline.jpg")
+```
+
+### Galvan & Galvan, 2017, Chapter 9
+*Synthesizing Trends and Patterns: Preparing to Write*
+
+<hr>
+
+**✓ Guideline 3:** Create a Topic Outline That Traces Your Argument
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Module 5 Readings
+
+```{r, out.width = "540px", echo = FALSE, fig.align = "center"}
+include_graphics("img/workshop.jpg")
+```
+
+### Galvan & Galvan, 2017, Chapter 9
+*Synthesizing Trends and Patterns: Preparing to Write*
+
+<hr>
+
+**✓ Guideline 4:** Reorganize Your Notes According to the Path of Your Argument
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Module 5 Readings
+
+```{r, out.width = "540px", echo = FALSE, fig.align = "center"}
+include_graphics("img/tools.jpg")
+```
+
+### Galvan & Galvan, 2017, Chapter 9
+*Synthesizing Trends and Patterns: Preparing to Write*
+
+<hr>
+
+**✓ Guideline 5:** Within Each Topic Heading, Note Differences among Studies
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Module 5 Readings
+
+```{r, out.width = "540px", echo = FALSE, fig.align = "center"}
+include_graphics("img/future-research.jpg")
+```
+
+### Galvan & Galvan, 2017, Chapter 9
+*Synthesizing Trends and Patterns: Preparing to Write*
+
+<hr>
+
+**✓ Guideline 6:** Within Each Topic Heading, Look for Obvious Gaps or Areas
+Needing Additional Research
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Module 5 Readings
+
+```{r, out.width = "540px", echo = FALSE, fig.align = "center"}
+include_graphics("img/mise-en-place.jpg")
+```
+
+### Galvan & Galvan, 2017, Chapter 9
+*Synthesizing Trends and Patterns: Preparing to Write*
+
+<hr>
+
+**✓ Guideline 10:** Plan to Present Conclusions and Implications
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-thumbtack", fill = "#fff")` <br><br> Synthesis Practice
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-thumbtack", fill = "#fff")` Synthesis Practice 1
+
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://fsu.padlet.org/embed/rhdnd3t5tuwj3q8f" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:480px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Made with Padlet"></div></a></div></div>
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-thumbtack", fill = "#fff")` Synthesis Practice 2
+
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://fsu.padlet.org/embed/aiz37af9trwq7mcu" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:480px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Made with Padlet"></div></a></div></div>
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-binoculars", fill = "#fff")` <br><br> Looking ahead
+
+---
+
+# `r fa("fas fa-calendar-day", fill = "#fff")` Semester schedule
+
+- Module 1: Threads of Chapter One
+
+- Module 2: Do You Trust Me?
+
+- Module 3: A Handbook's Tale
+
+- Module 4: Systematic Not Automatic
+
+- **Module 5: Synthesis Over Summary**
+
+- Module 6: Elements of Style (for Academic Writing)
+
+- Module 7: Weaving Together Chapter One
+
+---
+
+# `r fa("fas fa-calendar-day", fill = "#fff")` One Completed Subsection
+
+--
+
+**Assignment Objective:** Write a complete, if initial, draft of **one subsection** of your lit review that will appear in your dissertation prospectus. This is meant to be a specific, practical step toward writing your full prospectus.
+
+--
+
+<hr>
+
+1. Come up with a rough draft of a **Topic Outline** for your lit review (optional).
+
+--
+
+2. Pick one **major theme**.
+
+--
+
+3. **Synthesize** studies related to this theme: Combine often diverse conceptions into a **coherent whole**
+  
+--
+
+4. **Explain the significance** of these studies
+
+--
+
+5. **Craft an argument**: Be clear with the point you are trying to make with this section.
+
+--
+
+<hr>
+
+### Once again (again), your main objective is **synthesis**!
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-question", fill = "#fff")` <br><br> Questions
+
+<hr>
+
+**What questions can I answer for you now?**
+
+**How can I support you this week?**
+
+<hr>
+
+`r fa("envelope", fill = "#fff")` [bret.staudtwillet@fsu.edu](mailto:bret.staudtwillet@fsu.edu) | `r fa("globe", fill = "#fff")` [bretsw.com](https://bretsw.com) | `r fa("fab fa-github", fill = "#fff")` [GitHub](https://github.com/bretsw/)
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-otter", fill = "#fff")` <br><br> Let's build... <br> Topic Outlines
+
+---
+
+# `r fa("fas fa-otter", fill = "#fff")` Topic Outlines
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/outline.jpg")
+```
+
+--
+
+- Pick one major theme
+
+--
+
+- List 5-10 points you want to make 
+
+--
+
+- Write a topic sentence for each of these 5-10 points
+
+--
+
+- Underneath each topic sentence, start to organize references that provide evidence supporting the point
